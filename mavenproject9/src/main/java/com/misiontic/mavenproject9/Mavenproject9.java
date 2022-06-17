@@ -12,8 +12,11 @@ package com.misiontic.mavenproject9;
 public class Mavenproject9 {
 
     public static void main(String[] args) {
-        Mavenproject9 mp = new Mavenproject9();
-      mp.arreglos();
+    String palabra="esta palabra";
+    
+   int longitud = palabra.length();
+Tiquete t= new Tiquete("1",500,2);
+System.out.println(t.costoTiquete());
     }
     
     
