@@ -10,18 +10,36 @@ package com.misiontic.notastripulantes;
  */
 public class Tripulantes {
     
-    public double notareto1=0;
-    public double notareto2=0;
-    public double notareto3=0;
-    public double notareto4=0;
-    public double notareto5=0;
-
+    public double notaJava=0;
+    public double notaIngles=0;
+    public double notaCoaching=0;
+    public String nombre;
+    
+    
+    public double[] notas_java(){
+    
+        MateriaJava mj = new MateriaJava();
+        
+        double[] notas = mj.ingresarNotas();
+       
+        return notas;
+    
+    }
  
+    public double nota_def_java(double[] notas){
+    
+        MateriaJava mj = new MateriaJava();
+        
+        double nota = mj.promedio(notas[0],notas[1],notas[2],notas[3],notas[4]);
+     
+        return nota;
+    
+    }
     
    
-    public double promedio(double notareto1,double notareto2, double notareto3, double notareto4, double notareto5){
+    public double promedio(double notaJava,double notaIngles, double notaCoaching){
     
-        double promedio = (notareto1 + notareto2 + notareto3 +notareto4 + notareto5)/5;
+        double promedio = notaJava * 0.8 + notaIngles * 0.1 + notaCoaching * 0.1 ;
          
         return promedio;
     }
