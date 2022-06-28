@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="clase1semana2-uml">
+  <ClassDiagramComponents>
+    <Class name="Vehiculo" package="" visibility="public" xPosition="48.0" yPosition="74.0">
+      <Fields>
+        <Field name="aceleracion" type="double" visibility="public"/>
+        <Field name="velocidad" type="double" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Vehiculo" returnType="void" visibility="public"/>
+        <Method name="Aceleracion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Productos" package="" visibility="public" xPosition="357.0" yPosition="74.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

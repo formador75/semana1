@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Diagrama triupulantes">
+  <ClassDiagramComponents>
+    <Class name="UntitledClass" package="" visibility="public" xPosition="38.0" yPosition="120.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="UntitledClass1" package="" visibility="public" xPosition="461.0" yPosition="120.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="relacion 1" source="UntitledClass" target="UntitledClass1" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

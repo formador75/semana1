@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="DiagramaClase">
+  <ClassDiagramComponents>
+    <Class name="Classe1" package="" visibility="public" xPosition="32.0" yPosition="133.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="protected"/>
+        <Field name="untitledField" type="Object" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="saludarXNombre" returnType="String" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Classe2" package="" visibility="public" xPosition="477.0" yPosition="143.0">
+      <Fields>
+        <Field name="valor" type="double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="info" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Classe1" target="Classe2"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

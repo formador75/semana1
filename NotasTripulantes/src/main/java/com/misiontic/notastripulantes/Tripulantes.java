@@ -16,6 +16,15 @@ public class Tripulantes {
     public String nombre;
     
     
+    public Tripulantes(String nombre){
+    this.nombre = nombre;
+    }
+    
+    public void info(){
+    System.out.println("El tripulante se llama: " + this.nombre);
+    
+    }
+    
     public double[] notas_java(){
     
         MateriaJava mj = new MateriaJava();
@@ -29,7 +38,8 @@ public class Tripulantes {
     public double nota_def_java(double[] notas){
     
         MateriaJava mj = new MateriaJava();
-        
+      
+                
         double nota = mj.promedio(notas[0],notas[1],notas[2],notas[3],notas[4]);
      
         return nota;

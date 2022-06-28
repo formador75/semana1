@@ -31,13 +31,13 @@ public class MateriaJava {
     
     
      public double promedio(double notareto1,double notareto2, double notareto3, double notareto4, double notareto5){
-        notareto1 = notaReto1*0.1;
-        notareto2 = notaReto2*0.1;
-        notareto3 = notaReto3*0.2;
-        notareto4 = notaReto4*0.2;
-        notareto5 = notaReto5*0.2;
-        
-    
+         
+        notareto1 = notareto1 * 0.1;
+        notareto2 = notareto2 * 0.1;
+        notareto3 = notareto3 * 0.2;
+        notareto4 = notareto4 * 0.2;
+        notareto5 = notareto5 * 0.2;
+
         double promedio = notareto1 + notareto2 + notareto3 +notareto4 + notareto5;
         
         return promedio;
