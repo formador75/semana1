@@ -14,27 +14,51 @@ import java.util.List;
 public class Banco {
     
    
-    private List<Empleado> empleados ;
+    private Empleado empleados[];
+    private Empleado[] emplea2 ;
+   
     private String nombre;
 
+    
     public Banco(String nombre) {
         this.nombre = nombre;
     }
     
-    public void mostrarEmpleados(){
     
-    for (Empleado trabajador : empleados){
-    System.out.println(trabajador.getNombre() + " " + trabajador.getApellido());
+    public void mostrarEmplea2(){
+    
+    for (int i=0; i<emplea2.length;i++){
+    System.out.println(emplea2[i].getNombre());
     }
     }
-       
-    public List<Empleado> getEmpleados() {
+    
+    public void mostrarEmpleados(){
+    for (int i=0; i<empleados.length;i++){
+    System.out.println(empleados[i].getNombre());
+    }
+    }
+    
+    
+
+   
+
+    public Empleado[] getEmpleados() {
         return empleados;
     }
 
-    public void setEmpleados(List<Empleado> empleados) {
+    public void setEmpleados(Empleado[] empleados) {
         this.empleados = empleados;
     }
+
+    public Empleado[] getEmplea2() {
+        return emplea2;
+    }
+
+    public void setEmplea2(Empleado[] emplea2) {
+        this.emplea2 = emplea2;
+    }
+
+   
 
     public String getNombre() {
         return nombre;
@@ -43,9 +67,6 @@ public class Banco {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     
-    
-    
-    
-   
 }

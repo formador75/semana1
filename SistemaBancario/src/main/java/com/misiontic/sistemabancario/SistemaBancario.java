@@ -5,8 +5,6 @@
 
 package com.misiontic.sistemabancario;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  *
@@ -23,15 +21,23 @@ public class SistemaBancario {
         Empleado cajero2 = new Empleado("Maria","Ramirez");
         Empleado cajero3 = new Empleado("Pedro", "Robles");
         
-        List<Empleado> empleados = new ArrayList();
+        Empleado empleados[] = new Empleado[3];
+      Empleado[] emplea2 = new Empleado[3];
         
-        empleados.add(cajero1);
-        empleados.add(cajero2);
-        empleados.add(cajero3);
+      empleados[0] = cajero1;
+       empleados[1] = cajero2;
+        empleados[2] = cajero3;
+      
+       emplea2[0] = cajero1;
+       emplea2[1] = cajero2;
+        emplea2[2] = cajero3;
         
        mibanco.setEmpleados(empleados);
-       
+       mibanco.setEmplea2(emplea2);
        mibanco.mostrarEmpleados();
+       
+       
+       mibanco.mostrarEmplea2();
        
         
     }
