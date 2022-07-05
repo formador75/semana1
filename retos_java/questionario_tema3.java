@@ -1,11 +1,23 @@
-public static double salario (int cantidadhoras){
-    double salariodevengado;
-    double smlv = 1000000;
-        if (cantidadhoras <= 40){
-                salariodevengado = cantidadhoras * smlv * 0.015;
-                }
-        else {
-            salariodevengado = cantidadhoras * smlv * 0.02;
-        }
-        return(salariodevengado);
+public class Moto extends Vehiculo {
+    
+    private int cilindraje;
+
+    
+    public Moto(int cilindraje, String placa) {
+        super(placa);
+        this.cilindraje = cilindraje;
+    }
+    
+    public int calcularImpuesto(){
+        int valor;
+    if (cilindraje>150){
+    valor = 90000;
+    }else{
+    
+    valor = 45000;
+            }
+    
+    return valor;
+    }
+    
 }
