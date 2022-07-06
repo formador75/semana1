@@ -5,6 +5,9 @@
 
 package com.misiontic.proyectofarmacia;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author jorge
@@ -12,13 +15,12 @@ package com.misiontic.proyectofarmacia;
 public class ProyectoFarmacia {
 
     public static void main(String[] args) {
-      Producto producto1= new ProductoNoRefrigerado();
-        producto1.setValorBase(1000);
-        System.out.println(producto1.calcularCostoDeAlmacenamiento());
-        
-         Producto pr= new ProductoRefrigerado();
-        producto1.setValorBase(2000);
-        System.out.println(producto1.calcularCostoDeAlmacenamiento());
+     List ejemploObejetoListaArray = new ArrayList();
+     
+ejemploObejetoListaArray.add("elemento1");
+ejemploObejetoListaArray.add("elemento2");
+ejemploObejetoListaArray.add("elemento3");
+ejemploObejetoListaArray.add("elemento3");
         
         
     }
