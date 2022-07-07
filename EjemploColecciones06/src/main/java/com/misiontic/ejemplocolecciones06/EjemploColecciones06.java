@@ -24,14 +24,14 @@ import java.util.TreeSet;
 public class EjemploColecciones06 {
 
     public static void main(String[] args) {
-      Map<String,String> diccionario = new HashMap();
+      Map<String,Producto> diccionario = new HashMap();
     
-    diccionario.put("hola","Hello");
-     diccionario.put("casa","house");
-      diccionario.put("perro","dog");
-       diccionario.put("gato","cat");
-        diccionario.put("pez","fish");
-       diccionario.put("mosca","fly");
+    diccionario.put("hola",new Producto());
+     diccionario.put("casa",new Producto());
+      diccionario.put("perro",new Producto());
+       diccionario.put("gato",new Producto());
+        diccionario.put("pez",new Producto());
+       diccionario.put("mosca",new Producto());
        
         System.out.println(diccionario.get("perro"));
         System.out.println(diccionario.get("gato"));

@@ -10,10 +10,6 @@ package com.misiontic.proyectofarmacia;
  */
 public class ProductoRefrigerado extends Producto {
 
-    
-  
-    
-    
     public double calcularCostoDeAlmacenamiento(){
           return this.getValorBase() * 1.2;
           
