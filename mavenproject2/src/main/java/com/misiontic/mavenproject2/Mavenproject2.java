@@ -22,8 +22,19 @@ import java.util.Set;
  */
 public class Mavenproject2 {
 
+    enum Continente {
+AFRICA,
+EUROPA,
+ASIA,
+AMERICA,
+OCEANIA
+}
+
+    
     public static void main(String[] args) {
-      
+      Continente myVar = Continente.AFRICA;
+System.out.println(myVar);
+
         
         ejerciciomapas();
         
