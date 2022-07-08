@@ -13,8 +13,8 @@ public class EjerciciosColecciones07 {
 
     public static void main(String[] args) {
        
-        Ejercicio6 ejercicio = new Ejercicio6();
-        ejercicio.run();
+       Producto p1 = new Producto("Aspirina","abc","C","Tecnoquimicas",false);
+            p1.info();
         
         
         
