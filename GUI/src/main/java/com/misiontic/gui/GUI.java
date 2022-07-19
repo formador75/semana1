@@ -3,16 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.misiontic.mavenproject2;
+package com.misiontic.gui;
 
 /**
  *
  * @author jorge
  */
-public class Mavenproject2 {
+public class GUI {
 
     public static void main(String[] args) {
-       NewJFrame njf = new NewJFrame();
-       njf.setVisible(true);
+       NewJFrame jf = new NewJFrame();
+       jf.setVisible(true);
     }
 }

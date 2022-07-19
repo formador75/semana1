@@ -3,16 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.misiontic.mavenproject2;
+package com.misiontic.mavenproject1;
+
+import javax.swing.JFrame;
 
 /**
  *
  * @author jorge
  */
-public class Mavenproject2 {
+public class Mavenproject1 {
 
     public static void main(String[] args) {
-       NewJFrame njf = new NewJFrame();
-       njf.setVisible(true);
+     Formulario f = new Formulario();
+     f.setBounds(5,10,600,400);
+f.setVisible(true); 
+f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+
     }
 }
