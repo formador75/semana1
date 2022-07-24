@@ -1,26 +1,20 @@
-public class Producto {
+ class Producto {
     
-    private String nombre;
     private String id;
+    private String nombre;
     private double temperatura;
     private double valorBase;
 
     public Producto() {
     }
 
+    
+
     public Producto(String nombre, String id, double temperatura, double valorBase) {
-        this.nombre = nombre;
         this.id = id;
+        this.nombre = nombre;
         this.temperatura = temperatura;
         this.valorBase = valorBase;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public String getId() {
@@ -29,6 +23,14 @@ public class Producto {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public double getTemperatura() {
@@ -46,11 +48,9 @@ public class Producto {
     public void setValorBase(double valorBase) {
         this.valorBase = valorBase;
     }
-    
-    
-    public double calcularCostoDeAlmacenamiento(){
-    
-    return 0;
+
+    @Override
+    public String toString() {
+        return this.getClass().getName() + "{" + "nombre=" + nombre + ", id=" + id + ", temperatura=" + temperatura + ", valorBase=" + valorBase + '}';
     }
-    
 }
